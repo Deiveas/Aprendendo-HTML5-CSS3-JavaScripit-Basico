@@ -1,0 +1,69 @@
+.foto {
+    border-radius: 50%;
+    border: 3px black solid;
+}
+
+
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 1050px;
+    background-image: url(wallpaper_dead_or_alive_4_02_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+#titulo {
+    text-transform: uppercase;
+}
+
+.autor {
+    text-decoration: black;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+.imagem {
+    margin-bottom: 15px;
+    width: 80%;
+}
+.borda {
+    border: 2px solid black;
+    padding: 28px;
+    border-radius: 5px;
+}
+.borda2 {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: auto;
+}
+
+.lista {
+    list-style-position: inherit;
+    font-family: Arial;
+    padding-left: 20px;
+    text-transform: unset;
+    text-align: justify;
+    font: bolder;
+    border: black;
+    }
+
+#coluna2 {
+    background: dodgerblue;
+    width: 350px;
+    height: 920px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#coluna3 {
+    background-color: coral;
+    width: 640px;
+    height: 920px;
+    float: center;
+    margin: 5px;
+    padding: 5px;
+
+}

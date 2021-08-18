@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principais Tags HTML5 e CSS3</title>
+    <link rel="stylesheet" href="design.css">
+
+</head>
+
+<body class="borda">
+   
+    <head class="borda">
+        <img src="Foto Deive.jpg" alt="Foto do Deive" width="150px" class="foto">
+        <p class="autor">Postado por Deive Silva 
+            21/06/2021 
+            8:53hs
+        </p>
+       <script>
+        var dt=new Date();
+        var dia=dt.getDate();
+        var mes=dt.getMonth();
+        var ano=dt.getUTCFullYear();
+        var hora=dt.getHours();
+        var minutos=dt.getMinutes();
+        var segundos=dt.getSeconds();
+
+
+        var meses=new Array("1","2","3","4","5","6","7","8","9","10","11","12")
+        var data=("Data: ");
+        var tempo=("Hora: ");
+        document.write(data);
+        document.write(dia +"/"+ meses[mes] +"/" + ano);
+        document.write("<br>");
+        document.write(tempo);
+        document.write(hora,":",minutos,":",segundos,);
+         
+        
+        document.write("<br>");
+        
+        var now = new Date();
+        var h = now.getHours();
+        var ds = now.getDay();
+
+        if (h < 12){
+            document.write("Bom dia!!")
+
+        }else if (h <= 18){
+            document.write("Boa tarde!!")
+        }else{
+            document.write("Boa noite!!")
+        }
+        document.write("<br>");
+        switch(ds){
+            case 0:
+                document.write("Domingo")
+                break
+            case 1:
+                document.write("Segunda-Feira")
+                break
+            case 2:
+                document.write("Terça-Feira")
+                break    
+            case 3:
+                document.write("Quarta-Feira")
+                break    
+            case 4:
+                document.write("Quinta-Feira")
+                break
+            case 5:
+                document.write("Sexta-Feira") 
+                break 
+            case 6: 
+                document.write("Sábado")
+                break       
+
+
+        }
+
+                     
+                  
+        </script>
+  
+        <h1 class="borda2" id="titulo">
+
+           <b>Principais Tags HTML5 e CSS3</b> 
+            
+        </h1>
+              
+        <head class="imagem">
+            <img src="html5.jpg" alt="html5" width="1050px">
+
+            </head>
+    </head>
+    <section>
+        <div id="coluna2" class="borda2">
+
+        <head class="borda">
+             <b>CSS3 Principais Tags</b>
+             <p>
+             <ol class="borda">
+                 <li>
+                    Background: cor de fundo, imagem, transparência.  
+                 </li>
+                 <li>
+                    Background-attachment: rolagem do fundo / marca d’água.
+                 </li>
+                 <li>
+                    Background-image:imagem de fundo.
+                 </li>
+                 <li>
+                    Background-color: cor de fundo ou transparência.
+                 </li>
+                 <li>
+                    Border: largura, estilo e cor de todas as 4 bordas.
+                 </li>
+                 <li>
+                    Border-bottom: largura, estilo e cor da borda inferior.
+                 </li>
+                 <li>
+                    Border-bottom-style: estilo da citada borda.
+                 </li>
+                 <li>
+                    Border-color: cor das 4 bordas.
+                 </li>
+                 <li>
+                    Border-style: estilo de todas as 4 boras.
+                 </li>
+                 <li>
+                    Clear:	elementos flutuantes à esquerda ou à direita de um elemento.
+                 </li>
+                 <li>
+                    Color: cor de primeiro plano.
+                 </li>
+                 <li>
+                    Float: se o elemento flutua. 
+                 </li>
+                 <li>
+                    Font: estilo, variante, peso, tamanho e altura da linha do tipo de fonte.
+                 </li>
+                 <li>
+                    Font-family: tipo de fonte.
+                 </li>
+                 <li>
+                    Font-size: tamanho da fonte.
+                 </li>
+                 <li>
+                    Font-style: fonte itálico.
+                 </li>
+                 <li>
+                    Fonte-variant: fonte bold.
+                 </li>
+                 <li>
+                    Font-weight: peso da fonte de claro a negrito.
+                 </li>
+                 <li>
+                    Height:	altura exibida ao elemento.
+                 </li>
+                 <li>
+                    Width: largura exibida ao elemento.
+                 </li>
+                 <li>
+                    Margin:	tamanho de todas as 4 margens.
+                </li>  
+                <li>
+                    Padding: espaço em torno de um elemento em todos os lados.
+                </li>
+                <li>
+                    Text-align: alinhamento do texto.
+                </li>
+                <li>
+                    Text-transform:	transformação para todas maiúsculas, minúsculas ou inicial maiúscula.
+                </li>
+                <li>
+                    Vertical-align:	alinhamento vertical do elemento.
+                </li>
+             </ol>
+             <p>
+        </head>
+                           
+        </div>
+    </section>
+    <section class="borda2" id="coluna3">
+       <header>
+           <b>HTML5 Principais Tags</b>
+        </header class="borda">
+       <article class="borda">
+                <p>
+           <ol class="lista">
+            <li>
+            <b> DOCTYPE: define o tipo de documento <b>
+            <li> 
+                Html: define o início do documento html, todos as demais tags devem estar dentro desta tag
+            </li>
+            <li>
+                Head: cabeçalho onde ficar os metadados do documento, como metatgs, css e javascript
+            </li>
+            <li>
+                Ttitle: define o título do documento, mostrado na barra de títulos do navegador e como link nos mecanismos de busca
+            </li>
+            <li>
+                Base: define a url base do documento
+            </li>
+            <li>
+                Link: utilizado para linkar um arquivo de imagem ou css a página html
+            </li>
+            <li>
+                Script: utilizado para escrever ou anexar um arquivo normalmente javascript a página
+            </li>
+            <li>
+                Meta: metatags, como charset, description, viewport ou keywords
+            </li>
+            <li>
+                Style: utilizada para adicionar um código css a página
+            </li>
+            <li>
+                Body: corpo ou área principal do documento, dentro deste deve ficar o conteúdo da sua página
+            </li>
+            <li>
+                Header: define um cabeçalho da página ou de uma seção, normalmente pode conter um menu (nav), um logo ou link
+            </li>
+            <li>
+                Nav: define uma área de navegação contendo links, para a formação de menus com hiperlinks
+            </li>
+            <li>
+                Footer: define o rodapé de uma página ou seção
+            </li>
+            <li>
+                Main: define o conteúdo principal da página, deve ser utilizado apenas uma única vez em cada página
+            </li>
+            <li>
+                Section: define uma seção do documento
+            </li>
+            <li>
+                Article: pode ser um post ou notícia de um fórum ou blog, define um conteúdo independente
+            </li>
+            <li>
+                H1 a H6: representam 6 níveis de títulos, sendo o h1 de maior importância
+            </li>
+            <li>
+                P: define um parágrafo
+            </li>
+            <li>
+                Br: define uma quebra de linha
+            </li>
+            <li>
+                Div: define uma camada sem formatação, genérico
+            </li>
+            <li>
+                Ul: define uma lista não ordenada
+            </li>
+            <li>
+                Li: define um elemento ou item da lista não ordenada
+            </li>
+            <li>
+                A: define um link que deve ser apontado com o atributo href
+            </li>
+            <li>
+                Img: define a utilização de uma imagem (JPG, GIF, PNG e outras). A imagem deve ser apontada com o uso do atributo src
+            </li>
+            <li>
+                Strong: apesar de deixar em negrito, representa a importância deste texto no meio da frase
+            </li>
+
+           </ol>
+        </p>
+       </article>
+       
+       <div class="borda">
+       <footer>
+        <p> Todos os direitos reservados</p>  
+       </footer>
+       <div>
+      </body>
+</html>
+
+
+
